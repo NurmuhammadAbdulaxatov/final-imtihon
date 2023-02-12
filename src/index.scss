@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.bcg-color {
+  width: 100vw;
+  height: 100vh;
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-image: url(https://nt-devconnector.onrender.com/static/media/showcase.33c7a31b.jpg);
+}
+
+.btn-primary {
+  padding: 8px 17px;
+  background-color: #17a2b8;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.btn-white {
+  padding: 8px 18px;
+  background-color: white;
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 21px;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.Home {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000b4;
+
+  header {
+    background-color: #343a40de;
+    border-bottom: 1.5px solid #17a2b8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+
+    p {
+      color: white;
+      font-size: 25px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        color: #17a2b8;
+      }
+    }
+
+    nav {
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 26px;
+        list-style: none;
+
+        .link {
+          color: white;
+          text-decoration: none;
+          transition: all 0.2s ease-in-out;
+
+          &:hover {
+            color: #17a2b8;
+          }
+        }
+      }
+    }
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+
+    h1 {
+      color: white;
+      font-size: 60px;
+    }
+
+    h2 {
+      color: white;
+      font-size: 27px;
+      padding: 50px 0;
+    }
+  }
+}
+
+.Sign {
+  header {
+    background-color: #343a40de;
+    border-bottom: 1.5px solid #17a2b8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+
+    p {
+      color: white;
+      font-size: 25px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        color: #17a2b8;
+      }
+    }
+
+    nav {
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 26px;
+        list-style: none;
+
+        .link {
+          color: white;
+          text-decoration: none;
+          transition: all 0.2s ease-in-out;
+
+          &:hover {
+            color: #17a2b8;
+          }
+        }
+      }
+    }
+  }
+
+  .container {
+    width: 1100px;
+    margin: 0 auto;
+
+    h1 {
+      color: #17a2b8;
+      font-size: 47px;
+      padding: 20px 0;
+    }
+
+    h2 {
+      padding-bottom: 20px;
+      font-weight: 400;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      input {
+        font-size: 22px;
+        padding: 5px;
+        border: 1px solid rgb(198, 198, 198);
+      }
+
+      .Gravatar {
+        position: absolute;
+        color: gray;
+        margin-top: 110px;
+      }
+
+      .btn-primary {
+        all: unset;
+        padding: 8px 17px;
+        background-color: #17a2b8;
+        font-size: 20px;
+        transition: all 0.2s ease-in-out;
+        width: 75px;
+
+        .Link {
+          text-decoration: none;
+          color: white;
+        }
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+
+      .sign-btn {
+        color: #17a2b8;
+        text-decoration: none;
+      }
+    }
+  }
+}
