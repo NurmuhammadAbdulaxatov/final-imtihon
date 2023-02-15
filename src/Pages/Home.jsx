@@ -6,10 +6,12 @@ const Home = () => {
     <div className="bcg-color">
       <div className="Home">
         <header>
-          <p>
-            <i className="fa-solid fa-code"></i>
-            DevConnector
-          </p>
+          <Link className="link" to={"/"}>
+            <p>
+              <i className="fa-brands fa-twitter"></i>
+              Twitter
+            </p>
+          </Link>
 
           <nav>
             <ul>
@@ -19,12 +21,12 @@ const Home = () => {
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/">
+                <Link className="link" to="/signup">
                   Register
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/">
+                <Link className="link" to="/login">
                   Login
                 </Link>
               </li>
@@ -42,7 +44,7 @@ const Home = () => {
             <Link className="btn-primary" to={"/signup"}>
               Sign Up
             </Link>
-            <Link className="btn-white" to={"/"}>
+            <Link className="btn-white" to={"/login"}>
               Login
             </Link>
           </div>

@@ -65,9 +65,17 @@ body {
       cursor: pointer;
       transition: all 0.2s ease-in-out;
 
+      i {
+        color: #17a2b8;
+      }
+
       &:hover {
         color: #17a2b8;
       }
+    }
+
+    .link {
+      text-decoration: none;
     }
 
     nav {
@@ -118,6 +126,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
+    position: sticky;
+    top: 0;
 
     p {
       color: white;
@@ -127,9 +137,17 @@ body {
       cursor: pointer;
       transition: all 0.2s ease-in-out;
 
+      i {
+        color: #17a2b8;
+      }
+
       &:hover {
         color: #17a2b8;
       }
+    }
+
+    .link {
+      text-decoration: none;
     }
 
     nav {
@@ -176,6 +194,452 @@ body {
         font-size: 22px;
         padding: 5px;
         border: 1px solid rgb(198, 198, 198);
+      }
+
+      .Gravatar {
+        position: absolute;
+        color: gray;
+        margin-top: 110px;
+      }
+
+      .btn-primary {
+        all: unset;
+        padding: 8px 17px;
+        background-color: #17a2b8;
+        font-size: 20px;
+        transition: all 0.2s ease-in-out;
+        width: 75px;
+
+        .Link {
+          text-decoration: none;
+          color: white;
+        }
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+
+      .sign-btn {
+        color: #17a2b8;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.Dashboard {
+  header {
+    background-color: #343a40de;
+    border-bottom: 1.5px solid #17a2b8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+
+    p {
+      color: white;
+      font-size: 25px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+
+      i {
+        color: #17a2b8;
+      }
+
+      &:hover {
+        color: #17a2b8;
+      }
+    }
+
+    .link {
+      text-decoration: none;
+    }
+
+    nav {
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 26px;
+        list-style: none;
+
+        .link {
+          color: white;
+          text-decoration: none;
+          transition: all 0.2s ease-in-out;
+
+          &:hover {
+            color: #17a2b8;
+          }
+        }
+      }
+    }
+  }
+
+  .container {
+    width: 1100px;
+    margin: 0 auto;
+
+    h1 {
+      color: #17a2b8;
+      font-size: 47px;
+      padding: 20px 0;
+    }
+
+    h2 {
+      padding-bottom: 20px;
+      font-weight: 400;
+    }
+
+    p {
+      padding-bottom: 35px;
+    }
+
+    .link {
+      padding: 10px;
+      background-color: #17a2b8;
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+.Login {
+  header {
+    background-color: #343a40de;
+    border-bottom: 1.5px solid #17a2b8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    position: sticky;
+    top: 0;
+
+    p {
+      color: white;
+      font-size: 25px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+
+      i {
+        color: #17a2b8;
+      }
+
+      &:hover {
+        color: #17a2b8;
+      }
+    }
+
+    .link {
+      text-decoration: none;
+    }
+
+    nav {
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 26px;
+        list-style: none;
+
+        .link {
+          color: white;
+          text-decoration: none;
+          transition: all 0.2s ease-in-out;
+
+          &:hover {
+            color: #17a2b8;
+          }
+        }
+      }
+    }
+  }
+
+  .container {
+    width: 1100px;
+    margin: 0 auto;
+
+    h1 {
+      color: #17a2b8;
+      font-size: 47px;
+      padding: 20px 0;
+    }
+
+    h2 {
+      padding-bottom: 20px;
+      font-weight: 400;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      input {
+        font-size: 22px;
+        padding: 5px;
+        border: 1px solid rgb(198, 198, 198);
+      }
+
+      .Gravatar {
+        position: absolute;
+        color: gray;
+        margin-top: 110px;
+      }
+
+      .btn-primary {
+        all: unset;
+        padding: 8px 17px;
+        background-color: #17a2b8;
+        font-size: 20px;
+        transition: all 0.2s ease-in-out;
+        width: 75px;
+
+        .Link {
+          text-decoration: none;
+          color: white;
+        }
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+
+      .sign-btn {
+        color: #17a2b8;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.create-profile {
+  header {
+    background-color: #343a40de;
+    border-bottom: 1.5px solid #17a2b8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    top: 0;
+    position: sticky;
+
+    p {
+      color: white;
+      font-size: 25px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+
+      i {
+        color: #17a2b8;
+      }
+
+      &:hover {
+        color: #17a2b8;
+      }
+    }
+
+    .link {
+      text-decoration: none;
+    }
+
+    nav {
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 26px;
+        list-style: none;
+
+        .link {
+          color: white;
+          text-decoration: none;
+          transition: all 0.2s ease-in-out;
+
+          &:hover {
+            color: #17a2b8;
+          }
+        }
+      }
+    }
+  }
+
+  .container {
+    width: 1100px;
+    margin: 0 auto;
+
+    h1 {
+      color: #17a2b8;
+      font-size: 47px;
+      padding: 20px 0;
+    }
+
+    h2 {
+      padding-bottom: 20px;
+      font-weight: 400;
+    }
+
+    p {
+      padding-bottom: 35px;
+    }
+
+    .link {
+      padding: 10px;
+      background-color: #17a2b8;
+      text-decoration: none;
+      color: white;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .button {
+        all: unset;
+        margin-top: 50px;
+        padding: 10px;
+        width: 18%;
+        background-color: rgb(223, 223, 223);
+        transition: all 0.2s ease-in-out;
+        margin-bottom: 10px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgb(192, 192, 192);
+        }
+      }
+
+      button {
+        all: unset;
+      }
+
+      .p-optional {
+        position: absolute;
+        transform: translate(230px, 542px);
+      }
+
+      .optional {
+        .form {
+          input {
+            width: 95%;
+            margin-top: 20px;
+          }
+
+          i {
+            font-size: 25px;
+            margin-right: 20px;
+          }
+
+          .fa-twitter {
+            color: #1da1f2;
+          }
+
+          .fa-square-facebook {
+            color: #4267b2;
+          }
+
+          .fa-youtube {
+            color: #ff0000;
+          }
+
+          .fa-linkedin {
+            color: #0077b5;
+          }
+
+          .fa-instagram {
+            color: #8a3ab9;
+          }
+        }
+      }
+
+      .cp-send {
+        padding: 10px 22px;
+        background-color: #17a2b8;
+        color: white;
+        text-decoration: none;
+        margin-right: 20px;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+
+      .cp-back {
+        padding: 10px;
+        background-color: rgb(226, 226, 226);
+        color: black;
+        text-decoration: none;
+        margin-right: 30px;
+        margin-bottom: 40px;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          background-color: rgb(196, 196, 196);
+        }
+      }
+
+      input {
+        font-size: 22px;
+        padding: 5px;
+        border: 1px solid rgb(198, 198, 198);
+      }
+
+      select {
+        font-size: 22px;
+        padding: 5px;
+        border: 1px solid rgb(198, 198, 198);
+      }
+
+      .p0 {
+        position: absolute;
+        margin-top: 40px;
+        color: gray;
+      }
+
+      .p1 {
+        position: absolute;
+        margin-top: 105px;
+        color: gray;
+      }
+
+      .p2 {
+        position: absolute;
+        margin-top: 175px;
+        color: gray;
+      }
+
+      .p3 {
+        position: absolute;
+        margin-top: 243px;
+        color: gray;
+      }
+
+      .p4 {
+        position: absolute;
+        margin-top: 310px;
+        color: gray;
+      }
+
+      .p5 {
+        position: absolute;
+        margin-top: 375px;
+        color: gray;
+      }
+
+      .p6 {
+        position: absolute;
+        margin-top: 455px;
+        color: gray;
+      }
+
+      textarea {
+        font-size: 20px;
       }
 
       .Gravatar {
